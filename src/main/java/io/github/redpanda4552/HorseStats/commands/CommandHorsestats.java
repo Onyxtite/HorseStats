@@ -36,7 +36,6 @@ public class CommandHorsestats extends AbstractCommand {
     
     private final String[] genHelp =
     { " "
-    , lang.y + "== HorseStats v" + main.getDescription().getVersion() + " " + lang.get("horseStats.by") + " 'pandubz' =="
     , lang.y + lang.get("horseStats.choose")
     , lang.g + "/hs stats"
     , lang.g + "/hs teleport"
@@ -51,14 +50,12 @@ public class CommandHorsestats extends AbstractCommand {
     , lang.g + lang.get("horseStats.instruction-1") + " " + lang.y + main.statDisplayMaterialFriendlyName + lang.g + ". "
     , lang.g + lang.get("horseStats.instruction-2")
     , lang.g + lang.get("horseStats.stat-1")
-    , lang.g + lang.get("horseStats.stat-2")
     , lang.g + lang.get("horseStats.note")
     };
     
     private final String[] permissionHelp = 
     { " "
     , lang.y + lang.get("horseStats.permission-title")
-    , lang.g + lang.get("horseStats.permission-1")
     , lang.g + lang.get("horseStats.permission-2") + lang.y + " /hperm" + lang.g + "."
     , lang.g + lang.get("horseStats.permission-3") + lang.y + " /untame " + lang.g + lang.get("horseStats.and") + lang.y + " /setowner " + lang.g + lang.get("horseStats.permission-4")
     };
